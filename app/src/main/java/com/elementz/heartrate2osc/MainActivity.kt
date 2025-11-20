@@ -49,9 +49,7 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_main)
 
-        val bg = findViewById<ImageView>(R.id.bgImage)
-        val anim = android.view.animation.AnimationUtils.loadAnimation(this, R.anim.rotate_slow)
-        bg.startAnimation(anim)
+//        val bg = findViewById<ImageView>(R.id.bgImage)
 
         ensureAllPermissions {
             startSensorService()
