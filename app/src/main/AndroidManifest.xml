@@ -14,9 +14,11 @@
 
     <application
         android:allowBackup="true"
-        android:label=""
+        android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.HR2OSC">
+        android:theme="@style/Theme.HR2OSC"
+        android:icon="@drawable/round_logo"
+        android:roundIcon="@drawable/round_logo">
 
         <activity
             android:name=".SettingsActivity"
